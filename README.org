@@ -1,0 +1,14 @@
+* How to start
+This project shows how to run ts-facemesh model in node env, by using opencv to
+parse and load the image since we don't have HTMLVideoElement in node env
+
+You need to install npm and node first
+
+Put video file in the root directory and rename it to demo.mp4, then:
+
+#+BEGIN_SRC sh
+npm i
+node index.js
+#+END_SRC
+
+ The points will be in root directory as point.txt
